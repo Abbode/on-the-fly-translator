@@ -1,0 +1,6 @@
+#!/bin/bash
+xsel | trans -no-bidi -show-languages no   -show-alternatives no en:ar >/home/abode/.scripts/translation.txt &
+process_id=$!
+wait $process_id
+xed /home/abode/.scripts/translation.txt
+#-show-original-phonetics yes
