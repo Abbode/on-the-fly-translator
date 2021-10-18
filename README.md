@@ -21,8 +21,10 @@ to have this script work one will need:
 editing script before usage:
 1) make the translation fit your needs (ex: translation from language x to language y,
     any option you want to apply to the translation , etc...). for more informations
-    type <code>man trans</code> in your terminal
-2) use the text editor that is installed on your machine (ex: gedit, kate, xed, etc...) 
+    type <code>man trans</code> in your terminal(default from English to Arabic)
+2) use the text editor that is installed on your machine, default is xed (ex: gedit, kate, kwrite, etc...)
+3) if you want the output file to go to some other directory than the default edit it's path(optional).
+4) make the text editor read the new output file in changed(optional).
 
 How to use:
 1) you put the script in a directory inside your home direcry if you want to use it
